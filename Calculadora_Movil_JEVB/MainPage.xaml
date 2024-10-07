@@ -3,57 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculadora_Movil_JEVB.MainPage">
 
-    <StackLayout BackgroundColor="#C3BBBB">
+    <StackLayout BackgroundColor="White">
 
 
-        <Frame BackgroundColor="#877D7D" Padding="20" CornerRadius="30">
-            <Label Text="Calculador" HorizontalOptions="Center" TextColor="WhiteSmoke" FontSize="70"/>
-        </Frame>
-        <Frame BackgroundColor="WhiteSmoke" CornerRadius="30" Padding="50,20">
+        <!--<Frame BackgroundColor="#877D7D" Padding="20" CornerRadius="30">
+          <Label Text="Calculador" HorizontalOptions="Center" TextColor="WhiteSmoke" FontSize="70"/>
+        </Frame>-->
+        <Frame BackgroundColor="LightGray" CornerRadius="20" Padding="50,80">
 
-            <Label x:Name="ResultadoOperacion" IsEnabled="False" AnchorX="30" AnchorY="28" TextColor="#5F5656" FontSize="50"  />
+            <Label x:Name="ResultadoOperacion" IsEnabled="False" AnchorX="20" AnchorY="10" TextColor="Black" FontSize="50"  />
 
         </Frame>
 
         <StackLayout Padding="10, 0" Orientation="Horizontal" >
 
-            <Button Padding="25,25, 25,25" Text="AC"  TextColor="#5F5656" Clicked="Button_ClickedAC" CornerRadius="40" FontSize="20" ></Button>
-            <Button Padding="25,25, 25,25"   Text="Bor" TextColor="#5F5656" Clicked="Button_ClickedBorrar"  CornerRadius="40"  FontSize="20" ></Button>
-            <Button Padding="25,25, 25,30"  Text="0"  TextColor="#5F5656" Clicked="Button_ClickedNumero"  CornerRadius="40" FontSize="25" ></Button>
-            <Button Text="/"  TextColor="#5F5656" Clicked="Button_ClickedDivicion" CornerRadius="40"  />
+            <Button Padding="25,25, 25,25" Text="AC"  TextColor="Black" Clicked="Button_ClickedAC" CornerRadius="40" FontSize="20" ></Button>
+            <Button Padding="25,25, 25,25"   Text="Bor" TextColor="Black" Clicked="Button_ClickedBorrar"  CornerRadius="40"  FontSize="20" ></Button>
+            <Button Padding="25,25, 25,30"  Text="0"  TextColor="Black" Clicked="Button_ClickedNumero"  CornerRadius="40" FontSize="25" ></Button>
+            <Button Text="/"  TextColor="Black" Clicked="Button_ClickedDivicion" CornerRadius="40"  />
 
         </StackLayout>
 
         <StackLayout  Padding="10, 0" Orientation="Horizontal">
-            <Button  Padding="25,25, 25,30"  Text="9" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button >
-            <Button  Padding="15,15, 15,20"   Text="8" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button  Padding="15,15, 15,20"  Text="7" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button  Padding="15,15, 15,20"  Text="+" TextColor="#5F5656"  Clicked="Button_ClickedSuma" CornerRadius="40"  FontSize="20" ></Button>
+            <Button  Padding="25,25, 25,30"  Text="9" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button >
+            <Button  Padding="15,15, 15,20"   Text="8" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button  Padding="15,15, 15,20"  Text="7" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button  Padding="15,15, 15,20"  Text="+" TextColor="Black"  Clicked="Button_ClickedSuma" CornerRadius="40"  FontSize="20" ></Button>
 
         </StackLayout>
 
         <StackLayout Padding="10, 0" Orientation="Horizontal">
-            <Button  Padding="25,25, 25,30" Text="6" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button    Text="5" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button  Text="4" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button  Text="-" TextColor="#5F5656"  Clicked="Button_ClickedResta" CornerRadius="40" FontSize="25"  ></Button>
+            <Button  Padding="25,25, 25,30" Text="6" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button    Text="5" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button  Text="4" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button  Text="-" TextColor="Black"  Clicked="Button_ClickedResta" CornerRadius="40" FontSize="25"  ></Button>
 
         </StackLayout>
 
 
 
         <StackLayout Padding="10, 0" Orientation="Horizontal">
-            <Button   Padding="25,25, 25,30"  Text="3" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
-            <Button    Text="2" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40"  FontSize="40"  ></Button>
-            <Button    Text="1" TextColor="#5F5656" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="40"  ></Button>
-            <Button     Text="*" TextColor="#5F5656"  Clicked="Button_ClickedMultiplicar" CornerRadius="40"  FontSize="40"  ></Button>
+            <Button   Padding="25,25, 25,30"  Text="3" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="25"  ></Button>
+            <Button    Text="2" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40"  FontSize="40"  ></Button>
+            <Button    Text="1" TextColor="Black" Clicked="Button_ClickedNumero" CornerRadius="40" FontSize="40"  ></Button>
+            <Button     Text="*" TextColor="Black"  Clicked="Button_ClickedMultiplicar" CornerRadius="40"  FontSize="40"  ></Button>
 
         </StackLayout>
 
         <StackLayout Padding="10, 0" Orientation="Horizontal">
 
-            <Button Padding="25,25,25,25" Text="=" TextColor="#5F5656" Clicked="Button_ClickedIgual" CornerRadius="40" FontSize="30"></Button>
-            <Button Padding="25,25,25,25" Text="." TextColor="#5F5656" Clicked="Button_ClickedIgual" CornerRadius="40" FontSize="30"></Button>
+            <Button Padding="25,25,25,25" Text="=" TextColor="Black" Clicked="Button_ClickedIgual" CornerRadius="40" FontSize="30"></Button>
+            <Button Padding="25,25,25,25" Text="." TextColor="Black" Clicked="Button_ClickedIgual" CornerRadius="40" FontSize="30"></Button>
 
 
         </StackLayout>
